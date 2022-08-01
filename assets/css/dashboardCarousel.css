@@ -1,0 +1,45 @@
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    list-style: none;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: black;
+}
+
+.carousel-indicators li {
+    background-color: #0f6674;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 30%;
+    top: 55%;
+    left: 30%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #FFF;
+    text-align: center;
+}
+@media only screen and (max-width: 960px) {
+    .carousel-caption {
+        position: absolute;
+        right: 30%;
+        top: 50%;
+        left: 40%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #FFF;
+        text-align: center;
+    }
+}

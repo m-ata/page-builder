@@ -1,0 +1,8 @@
+export const VALIDATE_HELPER_TEXT_FIRST_NAME = 'Please do not leave empty!'
+export const VALIDATE_HELPER_TEXT_LAST_NAME = 'Please do not leave empty!'
+export const VALIDATE_HELPER_TEXT_PHONE = 'Please do not leave the Phone field empty!'
+export const VALIDATE_HELPER_TEXT_EMAIL = 'Please do not leave the Email field empty!'
+export const VALIDATE_HELPER_TEXT_EMAIL_NOT_VALID = 'Please enter a valid e-mail.'
+export const VALIDATE_HELPER_TEXT_PROFILE = 'Please select a Profile!'
+export const VALIDATE_HELPER_TEXT_PRIVACY_POLICY = 'Please confirm Privacy Policy'
+export const VALIDATE_HELPER_TEXT_RECAPTCHA = 'Please verify reCAPTCHA!'

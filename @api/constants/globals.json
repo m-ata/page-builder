@@ -1,0 +1,505 @@
+{
+  "microEndpoint":{
+    "getHomeSlider": {
+      "pathName": "home/slider",
+      "cache": false
+    },
+    "getHomeTypes": {
+      "pathName": "home/types",
+      "cache": false
+    },
+    "getHomeOffers": {
+      "pathName": "home/offers",
+      "cache": false
+    },
+    "hotelFlyTransferPriceCalc": {
+      "pathName": "hotel/flytransfer/pricecalc",
+      "cache": false
+    },
+    "hotelNotifWarnMsg": {
+      "pathName": "hotel/notif/warnmsg",
+      "cache": true
+    },
+    "hotelEmpRegister": {
+      "pathName": "hotel/emp/register",
+      "cache": false
+    },
+    "hotelAirportList": {
+      "pathName": "hotel/airport/list",
+      "cache": false
+    },
+    "hotelVehicleList": {
+      "pathName": "hotel/vehicle/list",
+      "cache": false
+    },
+    "propertySave": {
+      "pathName": "property/save",
+      "cache":false
+    },
+    "propertyAddressSave": {
+      "pathName": "property/address/save",
+      "cache":false
+    },
+    "propertyModuleList": {
+      "pathName": "property/module/list",
+      "cache":false
+    },
+    "propertyModuleAdd": {
+      "pathName": "property/module/add",
+      "cache":false
+    },
+    "propertyModuleUpdate": {
+      "pathName": "property/module/upd",
+      "cache":false
+    },
+    "propertyModuleRemove": {
+      "pathName": "property/module/del",
+      "cache":false
+    },
+    "propertyConfirm": {
+      "pathName": "property/confirm",
+      "cache":false
+    },
+    "propertyAltPayRequest": {
+      "pathName": "property/alt/pay/request",
+      "cache":false
+    },
+    "setBrowserInfo": {
+      "pathName": "browser/info",
+      "cache":false
+    },
+    "createCacheKey": {
+      "pathName": "create/cache/key",
+      "cache":false
+    },
+    "getHotelAppLanguage": {
+      "pathName": "hotel/app/language",
+      "cache": true
+    },
+    "guestProductSave": {
+      "pathName": "guest/product/save",
+      "cache": true
+    },
+    "hotelBookInfoConfirm":{
+      "pathName":"hotel/book/info/confirm",
+      "cache":false
+    },
+    "getHotelAppPortalList": {
+      "pathName": "hotel/app/portal/list",
+      "cache": true
+    },
+    "getHotelCommentList": {
+      "pathName": "hotel/comment/list",
+      "cache": false
+    },
+    "getHotelPaymentType": {
+      "pathName": "hotel/payment/type",
+      "cache":false
+    },
+    "ccInsCheck": {
+      "pathName": "hotel/payment/ccinst",
+      "cache":false
+    },
+    "getHotelBookInfoCheck": {
+      "pathName": "hotel/book/info/check",
+      "cache":false
+    },
+    "getRoomTypeBookList": {
+      "pathName": "roomtype/book/list",
+      "cache":false
+    },
+    "createReservation": {
+      "pathName": "create/reservation",
+      "cache":false
+    },
+    "getGuestWebHomeList": {
+      "pathName": "guestweb/home-list",
+      "cache": true
+    },
+    "getGuestWebHomeSlider":{
+      "pathName":"guestweb/home-slider",
+      "cache":true
+    },
+    "getGuestWebHomeOfferSales":{
+      "pathName":"guestweb/home-offer-sales",
+      "cache": false
+    },
+    "getGuestWebHomeSurvey":{
+      "pathName":"guestweb/home-survey",
+      "cache": false
+    },
+    "getGuestWebHotelInfo":{
+      "pathName":"guestweb/hotel-info",
+      "cache":true
+    },
+    "getGuestWebHotelEventsWeekly":{
+      "pathName":"guestweb/event/weekly",
+      "cache":true
+    },
+    "getGuestWebHotelEventsNearby":{
+      "pathName":"guestweb/event/nearby",
+      "cache":true
+    },
+    "getGuestWebHotelEventsHotel":{
+      "pathName":"guestweb/event/hotel",
+      "cache":true
+    },
+    "getGuestWebEventLocDetail":{
+      "pathName":"guestweb/event/loc/detail",
+      "cache":true
+    },
+    "getGuestWebFaq":{
+      "pathName":"guestweb/faq",
+      "cache":true
+    },
+    "getHotelPayment":{
+      "pathName":"hotel/payment",
+      "cache":false
+    },
+    "getHotelCheckPayment":{
+      "pathName":"hotel/check/payment",
+      "cache":false
+    },
+    "getGuestEmailValid": {
+      "pathName":"ors/guest/email/valid",
+      "cache":false
+    },
+    "userSave": {
+      "pathName":"ors/user/save",
+      "cache":false
+    },
+    "userRegister":{
+      "pathName":"ors/user/register",
+      "cache":false
+    },
+    "userUpdate":{
+      "pathName":"ors/user/update",
+      "cache":false
+    },
+    "userForgotPassword":{
+      "pathName":"ors/user/forgot-password",
+      "cache":false
+    },
+    "roomAdd":{
+      "pathName":"ors/room/add",
+      "cache":false
+    },
+    "roomDelete":{
+      "pathName":"ors/room/delete",
+      "cache":false
+    },
+    "getRoomAttributes":{
+      "pathName":"ors/room/attributes",
+      "cache":true
+    },
+    "getHotelBookInfo":{
+      "pathName":"ors/hotel/book/info",
+      "cache":false
+    },
+    "getPayType":{
+      "pathName":"ors/paytype",
+      "cache":false
+    },
+    "getPaymentInformation":{
+      "pathName":"ors/payment/information",
+      "cache":false
+    },
+    "getPublicFile": {
+      "pathName": "get/public/file",
+      "cache": false
+    },
+    "doPayment":{
+      "pathName":"ors/payment/do",
+      "cache":false
+    },
+    "savePayment":{
+      "pathName":"ors/payment/save",
+      "cache":false
+    },
+    "checkPaymentVPos":{
+      "pathName":"ors/payment/check/vpos",
+      "cache":false
+    },
+    "setHotelSelect":{
+      "pathName":"ors/hotel/select",
+      "cache":false
+    },
+    "getProductsProductList":{
+      "pathName":"products/product-list",
+      "cache":true
+    },
+    "getProductsOffersList":{
+      "pathName":"products/offer-list",
+      "cache":true
+    },
+    "getHotelContentSlider":{
+      "pathName":"hotel/content/slider",
+      "cache":true
+    },
+    "getHotelContentInfoCountry":{
+      "pathName":"hotel/content/info/country",
+      "cache":true
+    },
+    "posmainPaySave": {
+      "pathName":"hotel/posmain/pay/save",
+      "cache":false
+    },
+    "posmainInsline": {
+        "pathName": "hotel/posmain/insline",
+        "cache": false
+    },
+    "posmainViewList": {
+        "pathName": "hotel/posmain/view/list",
+        "cache": false
+    },
+    "spropsViewList": {
+        "pathName": "hotel/sprops/view/list",
+        "cache": false
+    },
+    "spropsListIns": {
+        "pathName": "hotel/sprops/list/ins",
+        "cache": false
+    },
+    "poslineInsList": {
+        "pathName": "hotel/posline/ins/list",
+        "cache": false  
+    },
+    "hotelSettFolioCash": {
+        "pathName": "hotel/sett/folio/cash",
+        "cache": false
+    },   
+    "getHotelContentInfoCity":{
+      "pathName":"hotel/content/info/city",
+      "cache":true
+    },
+    "getHotelContentInfoTown":{
+      "pathName":"hotel/content/info/town",
+      "cache":true
+    },
+    "getHotelContentInfoNation":{
+      "pathName":"hotel/content/info/nation",
+      "cache":true
+    },
+    "getPhoneInfo": {
+      "pathName": "get/phone/info",
+      "cache": false
+    },
+    "getHotelContentInfoIdType":{
+      "pathName":"hotel/content/info/id-type",
+      "cache":true
+    },
+    "getHotelContentInfoGender":{
+      "pathName":"hotel/content/info/gender",
+      "cache":true
+    },
+    "getHotelContentInfoTaxOffice":{
+      "pathName":"hotel/content/info/tax-office",
+      "cache":true
+    },
+    "getHotelContentInfoJob":{
+      "pathName":"hotel/content/info/job",
+      "cache":true
+    },
+    "getHotelContentImagepathName":{
+      "pathName":"hotel/content/image/pathName",
+      "cache":true
+    },
+    "getHotelFacilityList": {
+      "pathName":"hotel/facilities",
+      "cache":true
+    },
+    "getHotelSettChatEnabled":{
+      "pathName":"hotel/sett/chat-enabled",
+      "cache":true
+    },
+    "getHotelSettCrmRegisterAge":{
+      "pathName":"hotel/sett/crm/register/age",
+      "cache":true
+    },
+    "getHotelStatsGenSatis": {
+      "pathName":"hotel/stats/gen/satis",
+      "cache":true
+    },
+    "getHotelSurvey":{
+      "pathName":"hotel/survey",
+      "cache":false
+    },
+    "saveHotelSurvey":{
+      "pathName":"hotel/survey/save",
+      "cache":false
+    },
+    "confirmHotelSurvey":{
+      "pathName":"hotel/survey/confirm",
+      "cache":false
+    },
+    "hotelCacheGet":{
+      "pathName":"hotel/cache/get",
+      "cache":false
+    },
+    "hotelCacheGetAll":{
+      "pathName":"hotel/cache/get-all",
+      "cache":false
+    },
+    "hotelCacheIns":{
+      "pathName":"hotel/cache/ins",
+      "cache":false
+    },
+    "hotelCacheUpd":{
+      "pathName":"hotel/cache/upd",
+      "cache":false
+    },
+    "hotelCacheDel":{
+      "pathName":"hotel/cache/del",
+      "cache":false
+    },
+    "hotelContentImageList":{
+      "pathName":"hotel/content/image/list",
+      "cache":true
+    },
+    "hotelContentLangList":{
+      "pathName":"hotel/content/lang/list",
+      "cache":true
+    },
+    "hotelContentDefaultLang":{
+      "pathName":"hotel/content/lang/def",
+      "cache":true
+    },
+    "hotelContentText":{
+      "pathName":"hotel/content/text",
+      "cache":true
+    },
+    "hotelContentSliderList":{
+      "pathName":"hotel/content/slider/list",
+      "cache":true
+    },
+    "hotelContentSliderView":{
+      "pathName":"hotel/content/slider/view",
+      "cache":true
+    },
+    "hotelContentFileList": {
+      "pathName":"hotel/content/file/list",
+      "cache":false
+    },
+    "hotelDateTime": {
+      "pathName":"hotel/datetime",
+      "cache":false
+    },
+    "hotelSelfRegisterSearch":{
+      "pathName":"hotel/self-register/search",
+      "cache":true
+    },
+    "hotelSelfRegisterSave":{
+      "pathName":"hotel/self-register/save",
+      "cache":false
+    },
+    "hotelSelfRegisterSend":{
+      "pathName":"hotel/self-register/send",
+      "cache":false
+    },
+    "hotelSelfRegisterView":{
+      "pathName":"hotel/self-register/view",
+      "cache":false
+    },
+    "hotelSelfRegisterNotify":{
+      "pathName":"hotel/self-register/notify",
+      "cache":false
+    },
+    "hotelSelfRegisterAddressUpd":{
+      "pathName":"hotel/self-register/address/upd",
+      "cache":false
+    },
+    "hotelSelfRegisterAddressGeolocSave":{
+      "pathName":"hotel/self-register/address/geoloc/save",
+      "cache":false
+    },
+    "hotelSelfRegisterAddressGeolocUpd":{
+      "pathName":"hotel/self-register/address/geoloc/upd",
+      "cache":false
+    },
+    "hotelSelfRegisterProductsSave":{
+      "pathName":"hotel/self-register/products/save",
+      "cache":false
+    },
+    "hotelSelfRegisterProductsView":{
+      "pathName":"hotel/self-register/products/view",
+      "cache":false
+    },
+    "hotelSelfRegisterProductsDisc":{
+      "pathName":"hotel/self-register/products/disc",
+      "cache":false
+    },
+    "hotelSendCheckinNotification":{
+      "pathName":"hotel/checkin/notification",
+      "cache":false
+    },
+    "hotelSendGuestChangeNotify":{
+      "pathName":"hotel/guest/change/notify",
+      "cache":false
+    },
+    "getValidationEmail":{
+      "pathName":"validation/email",
+      "cache":false
+    },
+    "getAccTransType":{
+      "pathName":"hotel/acc-trans-type/get",
+      "cache":true
+    },
+    "getClientGrpWeb":{
+      "pathName":"hotel/acc-trans-type/get",
+      "cache":true
+    },
+    "pBookSave":{
+      "pathName":"hotel/pbook/ins",
+      "cache":false
+    },
+    "saleCallIns":{
+      "pathName":"hotel/salecall/ins",
+      "cache":false
+    },
+    "getReceiver":{
+      "pathName":"hotel/lic/contact",
+      "cache":false
+    },
+    "sendContactEmail":{
+      "pathName":"contact/send/mail",
+      "cache":false
+    },
+    "getHotelReviewsTa": {
+      "pathName":"hotel/reviews/ta",
+      "cache":false
+    },
+    "getHotelClientInfo": {
+      "pathName":"hotel/client/info",
+      "cache":false
+    },
+    "getHotelReservationInfo": {
+      "pathName":"hotel/reservation/info",
+      "cache":false
+    },
+    "getHotelTempGuestInfo": {
+      "pathName":"hotel/temp/guest/info",
+      "cache":false
+    },
+    "getPaymentInstallment": {
+      "pathName":"payment/installment",
+      "cache":false
+    }
+  },
+  "methods":{
+    "get":"GET"
+  },
+  "guestWeb":{
+    "homeSlider":"HOME_SLIDER",
+    "faq":"GUESTAPP.FAQ"
+  },
+  "survey":{
+    "redisPrefixSurvey":"SURVEY.",
+    "redisPrefixSurveyTree":"SURVEY_TREE."
+  },
+  "emails":{
+    "hotechFrom":"info@hotech.com.tr",
+    "hotechSales":"sales@hotech.systems"
+  },
+  "hotelrefno":"hotelrefno",
+  "hotelmid":"hotelmid"
+}

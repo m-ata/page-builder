@@ -1,0 +1,8 @@
+export const strEventRules = 'EVENTRULES'
+export const strEventTerms = 'EVENTTERMS'
+export const strDataPolicy = 'GUESTAPP.DATAPOLICY'
+export const strTravelPolicy = 'GUESTAPP.TRAVELPOLICY'
+export const strBookingPolicy = 'BOOKING.POLICY'
+export const strPayTerms = 'PAYTERMS'
+export const strFaqCode = 'GUESTAPP.FAQ'
+export const strLogoBanner = 'LOGOBANNER'

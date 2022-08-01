@@ -1,0 +1,13 @@
+{
+  "greaterThan": [">", -1],
+  "greaterThanEqual": [">:", -1],
+  "lessThan": ["<", -1],
+  "lessThanEqual": [":<", -1],
+  "equal": [":", -1],
+  "notEqual": ["!", -1],
+  "match": ["::", -1],
+  "contain": [":*", -1],
+  "startLike": ["%", -1],
+  "endLike": ["%", 0],
+  "fullLike": ["%", 1]
+}

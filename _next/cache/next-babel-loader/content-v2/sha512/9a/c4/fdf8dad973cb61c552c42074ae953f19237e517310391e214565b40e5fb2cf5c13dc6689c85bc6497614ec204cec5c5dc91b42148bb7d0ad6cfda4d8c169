@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const strOrsResTerms = 'ORSRESTERMS';","map":{"version":3,"sources":["/Users/mata/app-cloudweb/@webcms-globals/onlinereservation.js"],"names":["strOrsResTerms"],"mappings":"AAAA,OAAO,MAAMA,cAAc,GAAG,aAAvB","sourcesContent":["export const strOrsResTerms = 'ORSRESTERMS'"]},"metadata":{},"sourceType":"module"}
